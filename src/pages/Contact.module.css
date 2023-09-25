@@ -1,0 +1,33 @@
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--color-dark-green);
+}
+
+.contact {
+  display: flex;
+  margin: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--color-medium-green);
+  cursor: pointer;
+  margin: auto 0;
+}
+
+.icon {
+  background: var(--color-medium-green);
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px 20px 5px;
+  color: white;
+}
+
+.icon:hover {
+  background: var(--color-dark-green);
+}

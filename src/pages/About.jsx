@@ -57,7 +57,11 @@ const AboutPage = () => {
           <img className={styles.headshot} src={Photo} alt="Photo of Kaitlyn" />
           <div className={styles.technologies}>
             {technologies.map((technology) => (
-              <Technology skill={technology.skill} level={technology.level} />
+              <Technology
+                key={technology.skill}
+                skill={technology.skill}
+                level={technology.level}
+              />
             ))}
           </div>
         </div>
