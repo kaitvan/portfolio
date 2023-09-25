@@ -1,0 +1,24 @@
+:root {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-white: #ffffff;
+  --color-gray: #f8f9fa;
+  --color-light-gold: #e3bc6d;
+  --color-dark-gold: #dda83f;
+  --color-light-green: #b0bdb9;
+  --color-medium-green: #586c73;
+  --color-dark-green: #2b4743;
+}
+
+body {
+  margin: 0;
+}

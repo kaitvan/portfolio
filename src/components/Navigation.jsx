@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import Logo from "../assets/logo-emerald.png";
+import styles from "./Navigation.module.css";
 
 const Navigation = () => {
   return (
-    <header>
+    <header className={styles.header}>
+      <img src={Logo} className={styles.logo} />
       <nav>
-        <ul>
+        <ul className={styles.list}>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -19,6 +22,7 @@ const Navigation = () => {
           </li>
         </ul>
       </nav>
+      <div className={styles["fixed-margin-top"]}></div>
     </header>
   );
 };
