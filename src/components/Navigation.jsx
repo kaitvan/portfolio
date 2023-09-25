@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo-emerald.png";
+import Logo from "../assets/logo-gold.png";
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
