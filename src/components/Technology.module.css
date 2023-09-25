@@ -1,0 +1,24 @@
+.technology {
+  color: white;
+  width: auto;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 5px 20px 5px;
+  background: gray;
+}
+
+.technology p {
+  margin: auto;
+}
+
+.functional {
+  background: var(--color-light-green);
+}
+
+.intermediate {
+  background: var(--color-medium-green);
+}
+
+.advanced {
+  background: var(--color-dark-green);
+}

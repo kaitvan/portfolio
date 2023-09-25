@@ -1,0 +1,48 @@
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--color-dark-green);
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headshot {
+  width: 25vw;
+  border-radius: 50%;
+  border: 3px solid var(--color-dark-gold);
+}
+
+.text {
+  color: var(--color-medium-green);
+  padding-right: 100px;
+}
+
+.quote {
+  color: var(--color-dark-green);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  background: var(--color-light-gold);
+  width: 80%;
+  margin: 50px 0;
+  padding: 10px 30px;
+  border-radius: 10px 30px 10px;
+}
+
+.byline {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 25vw;
+  margin-top: 20px;
+}
