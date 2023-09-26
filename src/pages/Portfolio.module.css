@@ -1,0 +1,7 @@
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--color-dark-green);
+}

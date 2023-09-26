@@ -1,11 +1,24 @@
+import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import Logo from "../assets/logo-gold.png";
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
+  const [spin, setSpin] = useState(0);
+
   return (
     <header className={styles.header}>
-      <img src={Logo} className={styles.logo} />
+      <Link to="/">
+        <img
+          src={Logo}
+          className={styles.logo}
+          onClick={() => setSpin(1)}
+          onAnimationEnd={() => setSpin(0)}
+          spin={spin}
+        />
+      </Link>
+
       <nav>
         <ul className={styles.list}>
           <li>

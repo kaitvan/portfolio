@@ -14,7 +14,7 @@
 .headshot {
   width: 25vw;
   border-radius: 50%;
-  border: 3px solid var(--color-dark-gold);
+  border: 3px solid var(--color-dark-green);
 }
 
 .text {

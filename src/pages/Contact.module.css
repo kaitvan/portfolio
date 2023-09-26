@@ -8,7 +8,7 @@
 
 .contact {
   display: flex;
-  margin: 20px;
+  margin: 10px;
 }
 
 .contact a {
@@ -29,5 +29,5 @@
 }
 
 .icon:hover {
-  background: var(--color-dark-green);
+  background: var(--color-dark-gold);
 }

@@ -26,14 +26,6 @@
   color: var(--color-dark-green);
 }
 
-.logo {
-  position: absolute;
-  z-index: 1000;
-  height: 80px;
-  top: 40px;
-  left: 80px;
-}
-
 .fixed-margin-top {
   position: fixed;
   top: 80px;
@@ -44,4 +36,26 @@
     80%,
     rgba(255, 255, 255, 0)
   );
+}
+
+.logo {
+  position: absolute;
+  z-index: 1000;
+  height: 80px;
+  top: 40px;
+  left: 80px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo[spin="1"] {
+  animation: 2s ease-in-out 0s spinLogo;
+}
+
+@keyframes spinLogo {
+  to {
+    rotate: 360deg;
+  }
 }
