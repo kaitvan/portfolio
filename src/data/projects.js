@@ -1,16 +1,19 @@
 export const projects = [
   {
+    id: 1,
     title: "Pocket Minder",
-    screenshot: "",
-    description: "",
-    technologiesUsed: "",
+    screenshot: "pocket-minder",
+    description:
+      "A budgeting app that breaks down your monthly budget into daily spending limits to keep you on track with your goals.",
+    technologiesUsed: ["React", "TypeScript"],
     url: "",
-    githubUrl: "",
+    githubUrl: "https://github.com/kaitvan/pocket-minder",
     groupProject: false,
     inProgress: true,
-    isReady: false,
+    isReady: true,
   },
   {
+    id: 2,
     title: "Citizenship Quiz",
     screenshot: "",
     description: "",
@@ -22,16 +25,20 @@ export const projects = [
     isReady: false,
   },
   {
+    id: 3,
     title: "Whirly",
-    screenshot: "",
-    description: "",
-    technologiesUsed: "",
-    url: "",
-    githubUrl: "",
+    screenshot: "whirly",
+    description:
+      "Built during the height of the COVID-19 pandemic, this single-page application enables users to curate a personalized list of self-care activities with filtering features.",
+    technologiesUsed: ["React", "JavaScript"],
+    url: "https://whirly.netlify.app/",
+    githubUrl: "https://github.com/kaitvan/front-end-capstone",
     groupProject: false,
     inProgress: false,
+    isReady: true,
   },
   {
+    id: 4,
     title: "React Meals",
     screenshot: "",
     description: "",
@@ -43,10 +50,11 @@ export const projects = [
     isReady: false,
   },
   {
+    id: 5,
     title: "Dino Kennel",
-    screenshot: "dino-kennel.png",
+    screenshot: "dino-kennel",
     description:
-      "This is a single-page application with dynamic features. Similar to Tamagotchi digital pets, the user can care for dinos in the kennel by feeding them, petting them, and sending them on adventures!",
+      "A single-page application with dynamic features. Similar to Tamagotchi digital pets, the user can care for dinos in the kennel by feeding them, petting them, and sending them on adventures!",
     technologiesUsed: ["HTML", "CSS", "JavaScript"],
     url: "https://dino-kennel-kaitvan.netlify.app/",
     githubUrl: "https://github.com/kaitvan/dino-kennel",
@@ -55,6 +63,7 @@ export const projects = [
     isReady: true,
   },
   {
+    id: 6,
     title: "Joke Generator",
     screenshot: "",
     description: "",
@@ -66,6 +75,7 @@ export const projects = [
     isReady: false,
   },
   {
+    id: 7,
     title: "Snoopy Chat",
     screenshot: "",
     description: "",
@@ -77,6 +87,7 @@ export const projects = [
     isReady: false,
   },
   {
+    id: 8,
     title: "Tamagotchi",
     screenshot: "",
     description: "",
@@ -88,6 +99,7 @@ export const projects = [
     isReady: false,
   },
   {
+    id: 9,
     title: "Pet Adoption",
     screenshot: "",
     description: "",
@@ -99,6 +111,7 @@ export const projects = [
     isReady: false,
   },
   {
+    id: 10,
     title: "Sorting Hat",
     screenshot: "",
     description: "",

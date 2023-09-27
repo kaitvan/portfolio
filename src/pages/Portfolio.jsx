@@ -1,5 +1,6 @@
 import styles from "./Portfolio.module.css";
 import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data/projects";
 
 const PortfolioPage = () => {
   const project = {
@@ -19,9 +20,12 @@ const PortfolioPage = () => {
     <>
       <h1 className={styles.title}>Portfolio</h1>
       <div className={styles.projects}>
-        <ProjectCard project={project} />
-        <ProjectCard project={project} />
-        <ProjectCard project={project} />
+        {projects.map(
+          (project) =>
+            project.isReady && (
+              <ProjectCard project={project} key={project.id} />
+            )
+        )}
       </div>
     </>
   );

@@ -32,7 +32,6 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div className={styles.card}>
-      {/* <img className={styles["card-image"]} src={DinoProject} /> */}
       <div className={styles.content}>
         <div>
           <div className={styles.title}>
@@ -40,6 +39,12 @@ const ProjectCard = ({ project }) => {
             <FontAwesomeIcon icon={faUser} />
           </div>
           <p className={styles.description}>{project.description}</p>
+          <div className={styles.screenshot}>
+            <img
+              src={`./src/assets/projects/${project.screenshot}.png`}
+              className={styles.image}
+            />
+          </div>
         </div>
         <div className={styles["btn-container"]}>
           {!project.inProgress && links}
