@@ -36,7 +36,8 @@ const ProjectCard = ({ project }) => {
         <div>
           <div className={styles.title}>
             <h2>{project.title}</h2>
-            <FontAwesomeIcon icon={faUser} />
+            {project.groupProject && <FontAwesomeIcon icon={faUserGroup} />}
+            {!project.groupProject && <FontAwesomeIcon icon={faUser} />}
           </div>
           <p className={styles.description}>{project.description}</p>
           <div className={styles.screenshot}>

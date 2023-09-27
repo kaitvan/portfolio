@@ -77,14 +77,15 @@ export const projects = [
   {
     id: 7,
     title: "Snoopy Chat",
-    screenshot: "",
-    description: "",
-    technologiesUsed: "",
+    screenshot: "snoopy-chat",
+    description:
+      "In this NSS group project, we used agile methodologies and built a chat application with a Snoopy theme and all CRUD functionality.",
+    technologiesUsed: ["HTML", "CSS", "JavaScript"],
     url: "",
     githubUrl: "",
     groupProject: true,
     inProgress: false,
-    isReady: false,
+    isReady: true,
   },
   {
     id: 8,
