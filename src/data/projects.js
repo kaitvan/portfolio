@@ -81,8 +81,8 @@ export const projects = [
     description:
       "In this NSS group project, we used agile methodologies and built a chat application with a Snoopy theme and all CRUD functionality.",
     technologiesUsed: ["HTML", "CSS", "JavaScript"],
-    url: "",
-    githubUrl: "",
+    url: "https://chatty-group-project.netlify.app/",
+    githubUrl: "https://github.com/kaitvan/chatty-beta-1",
     groupProject: true,
     inProgress: false,
     isReady: true,
