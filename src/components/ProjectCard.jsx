@@ -8,7 +8,6 @@ import {
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./ProjectCard.module.css";
-import DinoProject from "../assets/projects/dino-kennel.png";
 
 const ProjectCard = ({ project }) => {
   const links = (
@@ -41,10 +40,7 @@ const ProjectCard = ({ project }) => {
           </div>
           <p className={styles.description}>{project.description}</p>
           <div className={styles.screenshot}>
-            <img
-              src={`./src/assets/projects/${project.screenshot}.png`}
-              className={styles.image}
-            />
+            <img src={project.screenshot} className={styles.image} />
           </div>
         </div>
         <div className={styles["btn-container"]}>

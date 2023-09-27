@@ -1,8 +1,17 @@
+import JokeGenerator from "../assets/projects/joke-generator.png";
+import DinoKennel from "../assets/projects/dino-kennel.png";
+import PetAdoption from "../assets/projects/pet-adoption.png";
+import PocketMinder from "../assets/projects/pocket-minder.png";
+import SnoopyChat from "../assets/projects/snoopy-chat.png";
+import SortingHat from "../assets/projects/sorting-hat.png";
+import Tamagotchi from "../assets/projects/tamagotchi.png";
+import Whirly from "../assets/projects/whirly.png";
+
 export const projects = [
   {
-    id: 1,
+    id: 0,
     title: "Pocket Minder",
-    screenshot: "pocket-minder",
+    screenshot: PocketMinder,
     description:
       "A budgeting app that breaks down your monthly budget into daily spending limits to keep you on track with your goals.",
     technologiesUsed: ["React", "TypeScript"],
@@ -13,7 +22,7 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 2,
+    id: 1,
     title: "Citizenship Quiz",
     screenshot: "",
     description: "",
@@ -25,9 +34,9 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 3,
+    id: 2,
     title: "Whirly",
-    screenshot: "whirly",
+    screenshot: Whirly,
     description:
       "Built during the height of the COVID-19 pandemic, this single-page application enables users to curate a personalized list of self-care activities with filtering features.",
     technologiesUsed: ["React", "JavaScript"],
@@ -38,7 +47,7 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 4,
+    id: 3,
     title: "React Meals",
     screenshot: "",
     description: "",
@@ -50,9 +59,9 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 5,
+    id: 4,
     title: "Dino Kennel",
-    screenshot: "dino-kennel",
+    screenshot: DinoKennel,
     description:
       "A single-page application with dynamic features. Similar to Tamagotchi digital pets, the user can care for dinos in the kennel by feeding them, petting them, and sending them on adventures!",
     technologiesUsed: ["HTML", "CSS", "JavaScript"],
@@ -63,9 +72,9 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 6,
+    id: 5,
     title: "Joke Generator",
-    screenshot: "",
+    screenshot: JokeGenerator,
     description: "",
     technologiesUsed: "",
     url: "",
@@ -75,9 +84,9 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 7,
+    id: 6,
     title: "Snoopy Chat",
-    screenshot: "snoopy-chat",
+    screenshot: SnoopyChat,
     description:
       "In this NSS group project, we used agile methodologies and built a chat application with a Snoopy theme and all CRUD functionality.",
     technologiesUsed: ["HTML", "CSS", "JavaScript"],
@@ -88,9 +97,21 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 8,
+    id: 7,
     title: "Tamagotchi",
-    screenshot: "",
+    screenshot: Tamagotchi,
+    description: "",
+    technologiesUsed: "",
+    url: "",
+    githubUrl: "",
+    groupProject: false,
+    inProgress: false,
+    isReady: false,
+  },
+  {
+    id: 8,
+    title: "Pet Adoption",
+    screenshot: PetAdoption,
     description: "",
     technologiesUsed: "",
     url: "",
@@ -101,20 +122,8 @@ export const projects = [
   },
   {
     id: 9,
-    title: "Pet Adoption",
-    screenshot: "",
-    description: "",
-    technologiesUsed: "",
-    url: "",
-    githubUrl: "",
-    groupProject: false,
-    inProgress: false,
-    isReady: false,
-  },
-  {
-    id: 10,
     title: "Sorting Hat",
-    screenshot: "",
+    screenshot: SortingHat,
     description: "",
     technologiesUsed: "",
     url: "",
