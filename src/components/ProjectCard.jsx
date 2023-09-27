@@ -42,7 +42,7 @@ const ProjectCard = ({ project }) => {
           <p className={styles.description}>{project.description}</p>
           <div className={styles.screenshot}>
             <img
-              src={`./assets/${project.screenshot}.png`}
+              src={`./src/assets/projects/${project.screenshot}.png`}
               className={styles.image}
             />
           </div>
