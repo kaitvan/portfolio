@@ -5,3 +5,9 @@
   line-height: 4rem;
   color: var(--color-dark-green);
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

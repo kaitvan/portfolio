@@ -8,6 +8,7 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: true,
+    isReady: false,
   },
   {
     title: "Citizenship Quiz",
@@ -18,6 +19,7 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: true,
+    isReady: false,
   },
   {
     title: "Whirly",
@@ -27,7 +29,7 @@ export const projects = [
     url: "",
     githubUrl: "",
     groupProject: false,
-    inProgress: true,
+    inProgress: false,
   },
   {
     title: "React Meals",
@@ -38,12 +40,14 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: false,
+    isReady: false,
   },
   {
     title: "Dino Kennel",
-    screenshot: {},
-    description: "",
-    technologiesUsed: "",
+    screenshot: "dino-kennel.png",
+    description:
+      "This is a single-page application with dynamic features. Similar to Tamagotchi digital pets, the user can care for dinos in the kennel by feeding them, petting them, and sending them on adventures!",
+    technologiesUsed: ["HTML", "CSS", "JavaScript"],
     url: "https://dino-kennel-kaitvan.netlify.app/",
     githubUrl: "https://github.com/kaitvan/dino-kennel",
     groupProject: false,
@@ -59,6 +63,7 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: false,
+    isReady: false,
   },
   {
     title: "Snoopy Chat",
@@ -69,6 +74,7 @@ export const projects = [
     githubUrl: "",
     groupProject: true,
     inProgress: false,
+    isReady: false,
   },
   {
     title: "Tamagotchi",
@@ -79,6 +85,7 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: false,
+    isReady: false,
   },
   {
     title: "Pet Adoption",
@@ -89,6 +96,7 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: false,
+    isReady: false,
   },
   {
     title: "Sorting Hat",
@@ -99,5 +107,6 @@ export const projects = [
     githubUrl: "",
     groupProject: false,
     inProgress: false,
+    isReady: false,
   },
 ];
