@@ -1,5 +1,6 @@
 import JokeGenerator from "../assets/projects/joke-generator.png";
 import DinoKennel from "../assets/projects/dino-kennel.png";
+import Mash from "../assets/projects/mash.png";
 import PetAdoption from "../assets/projects/pet-adoption.png";
 import PocketMinder from "../assets/projects/pocket-minder.png";
 import SnoopyChat from "../assets/projects/snoopy-chat.png";
@@ -23,6 +24,18 @@ export const projects = [
   },
   {
     id: 1,
+    title: "MASH",
+    screenshot: Mash,
+    description: "A fortune-telling app based on a favorite childhood game.",
+    technologiesUsed: ["React", "TypeScript", "CSS", "HTML"],
+    url: "https://mash-app.netlify.app/",
+    githubUrl: "https://github.com/kaitvan/mash",
+    groupProject: false,
+    inProgress: false,
+    isReady: true,
+  },
+  {
+    id: 2,
     title: "Citizenship Quiz",
     screenshot: "",
     description: "",
@@ -34,7 +47,7 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "Whirly",
     screenshot: Whirly,
     description:
@@ -47,7 +60,7 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "React Meals",
     screenshot: "",
     description: "",
@@ -59,7 +72,7 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Dino Kennel",
     screenshot: DinoKennel,
     description:
@@ -72,7 +85,7 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 5,
+    id: 6,
     title: "Joke Generator",
     screenshot: JokeGenerator,
     description: "",
@@ -84,7 +97,7 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Snoopy Chat",
     screenshot: SnoopyChat,
     description:
@@ -97,7 +110,7 @@ export const projects = [
     isReady: true,
   },
   {
-    id: 7,
+    id: 8,
     title: "Tamagotchi",
     screenshot: Tamagotchi,
     description: "",
@@ -109,7 +122,7 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Pet Adoption",
     screenshot: PetAdoption,
     description: "",
@@ -121,7 +134,7 @@ export const projects = [
     isReady: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "Sorting Hat",
     screenshot: SortingHat,
     description: "",

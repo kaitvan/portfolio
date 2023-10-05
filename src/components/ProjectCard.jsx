@@ -41,7 +41,7 @@ const ProjectCard = ({ project }) => {
               <p className={styles.description}>{project.description}</p>
               <div className={styles.tech}>
                 {project.technologiesUsed.map((tech) => (
-                  <div className={styles.technology}>
+                  <div className={styles.technology} key={tech}>
                     <p>{tech}</p>
                   </div>
                 ))}
