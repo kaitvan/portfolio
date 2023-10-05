@@ -97,3 +97,22 @@ a {
 .label:hover {
   background: var(--color-light-green);
 }
+
+.tech {
+  display: flex;
+}
+
+.technology {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  width: auto;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px 15px 5px;
+  background: gray;
+}
+
+.technology p {
+  margin: auto;
+}

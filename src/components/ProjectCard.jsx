@@ -1,10 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUser,
-  faUserGroup,
-  faLink,
-  faHelmetSafety,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUser, faUserGroup, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./ProjectCard.module.css";
@@ -44,6 +39,13 @@ const ProjectCard = ({ project }) => {
             </div>
             <div>
               <p className={styles.description}>{project.description}</p>
+              <div className={styles.tech}>
+                {project.technologiesUsed.map((tech) => (
+                  <div className={styles.technology}>
+                    <p>{tech}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
