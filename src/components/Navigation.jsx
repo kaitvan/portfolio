@@ -5,7 +5,7 @@ import Logo from "../assets/logo-gold.png";
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
-  const [spin, setSpin] = useState(0);
+  const [spin, setSpin] = useState(1);
 
   return (
     <header className={styles.header}>

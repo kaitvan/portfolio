@@ -38,9 +38,13 @@ const ProjectCard = ({ project }) => {
             {project.groupProject && <FontAwesomeIcon icon={faUserGroup} />}
             {!project.groupProject && <FontAwesomeIcon icon={faUser} />}
           </div>
-          <p className={styles.description}>{project.description}</p>
-          <div className={styles.screenshot}>
-            <img src={project.screenshot} className={styles.image} />
+          <div className={styles.body}>
+            <div className={styles.screenshot}>
+              <img src={project.screenshot} className={styles.image} />
+            </div>
+            <div>
+              <p className={styles.description}>{project.description}</p>
+            </div>
           </div>
         </div>
         <div className={styles["btn-container"]}>
